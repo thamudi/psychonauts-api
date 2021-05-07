@@ -68,15 +68,28 @@ a {
     color          : var(--theme-link-color);
 }
 
+code,
+label {
+    color           : var(--theme-accent-color);
+    background-color: var(--theme-article-background-color--secondary);
+    padding         : 2px;
+    font-size       : 105%;
+    font-family     : monospace;
+}
+
+img {
+    max-width: 100%;
+    height   : auto;
+}
+
+
 .wrapper {
-    margin    : 55px auto 0;
-    max-width : 60vw;
-    min-height: 100%;
+    margin   : 55px auto 0;
+    max-width: 60vw;
 }
 
 .content-wrapper {
     padding         : 0 24px 24px;
     background-color: rgba(var(--theme-article-background-color--rgb), var(--oasis-community-background-opacity));
-    height          : 90vh;
     position        : relative;
 }

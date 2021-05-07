@@ -26,6 +26,12 @@ export class Accordion extends Component {
                 <button onClick={this.toggle} className={`accordion ${this.state.active ? "active" : ""}`}>{this.props.title}</button>
                 <div className="panel">
                     <p>{this.props.body}</p>
+                    <p>
+                        <code>{this.props.endpoint}</code>
+                    </p>
+                    <p>
+                        <a href={`/${this.props.link}`}>Link to {this.props.link}</a>
+                    </p>
                 </div>
 
             </>

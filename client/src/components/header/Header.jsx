@@ -1,6 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import logo from './assets/psychonauts-logo.png';
+import api from './assets/api.png';
+
 import './Header.css';
-import logo from './assets/psychonauts-logo.png'
 
 export class Header extends Component {
     render() {
@@ -8,6 +10,7 @@ export class Header extends Component {
             <>
                 <header>
                     <img src={logo} alt="" />
+                    <img src={api} alt="" />
                 </header>
             </>
         )
