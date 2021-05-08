@@ -1,0 +1,49 @@
+form {
+    display  : flex;
+    width    : 100%;
+    flex-wrap: wrap;
+}
+
+label {
+    flex              : 0 0;
+    white-space       : nowrap;
+    border-right-width: 0;
+    background-color  : var(--theme-header-background-color);
+    padding           : .35em .5em;
+    z-index           : 2;
+    font-size         : 1em;
+}
+
+input {
+    flex                       : 1 1;
+    font-size                  : 1em;
+    padding                    : .35em .5em;
+    min-width                  : 1em;
+    -webkit-tap-highlight-color: transparent;
+}
+
+input:focus {
+    border-radius: 0;
+}
+
+h3 {
+    text-transform: capitalize;
+    margin-bottom : 1vw;
+    margin-top    : 1vw;
+    cursor        : pointer;
+}
+
+.toLowerCase {
+    text-transform: lowercase;
+}
+
+.jsonViewer {
+    background-color: var(--theme-article-background-color--secondary);
+    max-height      : 32rem;
+    height          : auto;
+    overflow-y      : auto;
+    padding         : .5em;
+    resize          : vertical;
+    font-family     : Monaco, Menlo, Consolas, Courier New, monospace;
+    font-size       : .8em;
+}

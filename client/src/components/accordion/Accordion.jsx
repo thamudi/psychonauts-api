@@ -30,7 +30,7 @@ export class Accordion extends Component {
                         <code>{this.props.endpoint}</code>
                     </p>
                     <p>
-                        <a href={`/${this.props.link}`}>Link to {this.props.link}</a>
+                        <a href={`/${this.props.linkAnchor}`}>Link to {this.props.linkText}</a>
                     </p>
                 </div>
 

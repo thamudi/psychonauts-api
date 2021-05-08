@@ -1,0 +1,7 @@
+.toast.success {
+    background-color: var(--theme-accent-color);
+    padding         : 0.5rem;
+    width           : fit-content;
+    margin-bottom   : 2vh;
+    transition      : 1s linear;
+}

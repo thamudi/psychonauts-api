@@ -1,3 +1,10 @@
 a:hover {
     color: var(--theme-link-color--hover);
 }
+
+
+input:focus,
+input:focus-within {
+    border-radius: 0;
+    border       : 1px solid var(--global-navigation-link-color);
+}

@@ -11,26 +11,30 @@ export class Table extends Component {
                 {
                     "title": "Get Characters",
                     "body": "An endpoint to get all the characters within this API",
-                    "link": "characters",
+                    "linkText": "characters",
+                    "linkAnchor": "characters",
                     "endpoint": `${process.env.REACT_APP_SERVER_API}/characters`
                 },
                 {
                     "title": "Get a single character",
                     "body": "An endpoint to get a character by their name within this API",
-                    "link": "characters",
-                    "endpoint": `${process.env.REACT_APP_SERVER_API}/characters/raz`
+                    "linkText": "characters",
+                    "linkAnchor": "characters#name",
+                    "endpoint": `${process.env.REACT_APP_SERVER_API}/characters?name=razputin`
                 },
                 {
                     "title": "Get PSI-Powers",
                     "body": "An endpoint to get all the PSI-Powers within this API",
-                    "link": "psi-powers",
+                    "linkText": "psi-powers",
+                    "linkAnchor": "psi-powers",
                     "endpoint": `${process.env.REACT_APP_SERVER_API}/psi-powers`
                 },
                 {
                     "title": "Get a single PSI-Powers",
                     "body": "An endpoint to get a PSI-Power by its name within this API",
-                    "link": "psi-powers",
-                    "endpoint": `${process.env.REACT_APP_SERVER_API}/psi-powers/psi-punch`
+                    "linkText": "psi-powers",
+                    "linkAnchor": "psi-powers#name",
+                    "endpoint": `${process.env.REACT_APP_SERVER_API}/psi-powers?name=psi-punch`
                 },
 
             ]
@@ -38,14 +42,15 @@ export class Table extends Component {
     }
     render() {
         return (
-            <div className="table">
+            <div className="box">
                 {this.state.sections.map((section, idx) => {
                     return (
                         <div key={idx} className="accordion-section">
                             <Accordion
                                 title={section.title}
                                 body={section.body}
-                                link={section.link}
+                                linkText={section.linkText}
+                                linkAnchor={section.linkAnchor}
                                 endpoint={section.endpoint}
                             />
                         </div>

@@ -9,8 +9,10 @@ export class Header extends Component {
         return (
             <>
                 <header>
-                    <img src={logo} alt="" />
-                    <img src={api} alt="" />
+                    <a href="/">
+                        <img src={logo} alt="" />
+                        <img src={api} alt="" />
+                    </a>
                 </header>
             </>
         )

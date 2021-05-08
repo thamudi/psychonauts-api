@@ -68,8 +68,7 @@ a {
     color          : var(--theme-link-color);
 }
 
-code,
-label {
+code {
     color           : var(--theme-accent-color);
     background-color: var(--theme-article-background-color--secondary);
     padding         : 2px;
@@ -92,4 +91,16 @@ img {
     padding         : 0 24px 24px;
     background-color: rgba(var(--theme-article-background-color--rgb), var(--oasis-community-background-opacity));
     position        : relative;
+}
+
+input {
+    border       : none;
+    border-radius: 0;
+}
+
+input[type=submit] {
+    background-color   : #feee03;
+    border             : 1px solid var(--global-navigation-link-color);
+    /* color           : var(--theme-article-text-color); */
+    ;
 }

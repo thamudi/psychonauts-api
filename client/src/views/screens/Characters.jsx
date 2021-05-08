@@ -12,10 +12,10 @@ export class Characters extends Component {
                 "desc": "An endpoint responsible for everything related to the characters of Psychonauts",
                 "endpoint": `${process.env.REACT_APP_SERVER_API}/characters`,
                 "searchQueries": [
-                    ["limit", 5],
-                    ["psiPower", "telekinesis"],
-                    ["gender", "male"],
-                    ["name", "razputin"],
+                    ["limit", 5, "Limit the number of Characters you get back from the API", "Nothing to see Here"],
+                    ["psiPower", "telekinesis", "Get the Characters by their Psi Power", "Nothing to see Here"],
+                    ["gender", "male", "Get the Characters by their Gender", "Nothing to see Here"],
+                    ["name", "razputin", "Get the Character by their unique name", "Nothing to see Here"],
                 ]
             }
         }
