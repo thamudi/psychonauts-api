@@ -5,6 +5,7 @@
  */
 
 const app = require('../app');
+const connectDb = require('../config/db');
 const debug = require('debug')('psychonauts-api:server');
 const http = require('http');
 
@@ -26,6 +27,7 @@ const server = http.createServer(app);
  */
 
 server.listen(port);
+connectDb();
 server.on('error', onError);
 server.on('listening', onListening);
 
