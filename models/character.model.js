@@ -17,12 +17,19 @@ const characterSchema = new mongoose.Schema({
         type: String,
         enum: ['male', 'female'],
         lowercase: true,
-        default: male,
+        default: 'male',
         trim: true
     },
 
     psi_powers: [psi_powers]
 
 });
+
+characterSchema.methods = {
+    // seed characters
+    seedCharacters: function () {
+        // read from the json file and populate the collection
+    }
+}
 
 module.exports = mongoose.model('Character', characterSchema);

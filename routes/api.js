@@ -1,16 +1,28 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
 
-router.get('/', function (req, res, next) {
-    res.render('index', { title: 'Express' });
-});
+const { addCharacter } = require('../controllers/characters.controller');
+const { getPsiPowers } = require('../controllers/psi-powers.controller');
 
-router.get('/characters', function (req, res, next) {
-    res.render('index', { title: 'Express' });
-});
+/*
+----------------------
+Proof of life endpoint
+----------------------
+*/
+router.get('/', (req, res, next) => res.json(' API is alive \u{1F35E} \u{1F5A5}'));
 
-router.post('/characters', function (req, res, next) {
-    res.render('index', { title: 'Express' });
-});
+/*
+----------------------
+Powers endpoint
+----------------------
+*/
+router.get('/powers', getPsiPowers);
+
+/*
+---------------------------
+Characters endpoint
+---------------------------
+*/
+router.post('/character', addCharacter);
 
 module.exports = router;

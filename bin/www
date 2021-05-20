@@ -27,7 +27,7 @@ const server = http.createServer(app);
  */
 
 server.listen(port);
-connectDb();
+connectDb(process.env.DATABASE_URL);
 server.on('error', onError);
 server.on('listening', onListening);
 

@@ -1,9 +1,9 @@
 'use strict';
 const mongoose = require('mongoose');
-require('dotenv').config({ path: './config/.env' });
+require('dotenv').config();
 
-const connectDb = async () => {
-    const connection = await mongoose.connect(process.env.MONGO_URL, {
+const connectDb = async (MONGO_URL) => {
+    const connection = await mongoose.connect(MONGO_URL, {
         //TODO: check these
         useNewUrlParser: true,
         useCreateIndex: true,
