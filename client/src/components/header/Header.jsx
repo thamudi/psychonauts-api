@@ -13,6 +13,9 @@ export class Header extends Component {
                         <img src={logo} alt="" />
                         <img src={api} alt="" />
                     </a>
+                    <a href="/create">
+                        add new character
+                    </a>
                 </header>
             </>
         )
