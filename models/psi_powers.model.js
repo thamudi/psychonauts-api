@@ -15,6 +15,10 @@ const psi_powers = new mongoose.Schema({
     description: {
         type: String,
         default: ''
+    },
+    img: {
+        type: String,
+        default: 'not-found'
     }
 
 });

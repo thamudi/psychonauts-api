@@ -3,7 +3,7 @@
 const mongoose = require('mongoose');
 const psi_powers = require('./psi_powers.model');
 
-const character = new mongoose.Schema({
+const characterSchema = new mongoose.Schema({
 
     name: {
         type: String,
@@ -25,4 +25,4 @@ const character = new mongoose.Schema({
 
 });
 
-module.exports = character;
+module.exports = mongoose.model('Character', characterSchema);

@@ -1,0 +1,59 @@
+{
+    "psi-powers": [
+        {
+            "name": "Clairvoyance",
+            "description": "Allows the user to see through the minds of others.",
+            "img": "/clairvoyance.png"
+        },
+        {
+            "name": "Confusion",
+            "description": "Allows the user to confuse enemies.",
+            "img": "/confusion.png"
+        },
+        {
+            "name": "Herbaphony",
+            "description": "Allows the user to speak to plants.",
+            "img": ""
+        },
+        {
+            "name": "Hydrokinesis",
+            "description": "Allows the user to control the movement of water.",
+            "img": "/hydrokinesis.png"
+        },
+        {
+            "name": "Invisibility",
+            "description": "Allows the user to turn invisible for a short period of time.",
+            "img": "/invisibility.png"
+        },
+        {
+            "name": "Levitation",
+            "description": "Allows the user to levitate using a levitation ball.",
+            "img": "/levitation.png"
+        },
+        {
+            "name": "Marksmanship",
+            "description": "Allows the user to strike things down using their mind.",
+            "img": "/marksmanship.png"
+        },
+        {
+            "name": "PSI-Punch",
+            "description": "Allows the user to break objects using their mind.",
+            "img": "/psi-punch.jpg"
+        },
+        {
+            "name": "Pyrokinesis",
+            "description": "Allows the user to set objects on fire using their mind.",
+            "img": "/pyrokinesis.png"
+        },
+        {
+            "name": "Shield",
+            "description": "Allows the user to create a psychic shield.",
+            "img": "/shield.png"
+        },
+        {
+            "name": "Telekinesis",
+            "description": "Allows the user to move objects with their mind.",
+            "img": "/telekinesis.png"
+        }
+    ]
+}
