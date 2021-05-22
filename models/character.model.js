@@ -1,8 +1,13 @@
 'use strict';
 
 const mongoose = require('mongoose');
-const psi_powers = require('./psi_powers.model');
+const psiPowers = require('./psiPower.model');
 
+/*
+-------------------------------------
+Character Schema 
+-------------------------------------
+*/
 const characterSchema = new mongoose.Schema({
 
     name: {
@@ -21,15 +26,14 @@ const characterSchema = new mongoose.Schema({
         trim: true
     },
 
-    psi_powers: [psi_powers]
+    psi_powers: [psiPowers.psiPowersSchema]
 
 });
 
-characterSchema.methods = {
-    // seed characters
-    seedCharacters: function () {
-        // read from the json file and populate the collection
-    }
-}
-
+/*
+-------------------------------------
+Module export the generated Character 
+model
+-------------------------------------
+*/
 module.exports = mongoose.model('Character', characterSchema);
