@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import Header from '../../components/header/Header'
 
 export class CreateCharacter extends Component {
 
@@ -9,12 +10,13 @@ export class CreateCharacter extends Component {
             powers: [],
             characterName: '',
             characterGender: '',
-            characterPowers: []
+            characterPowers: [],
+            serverUrl: process.env.REACT_APP_SERVER_API
         }
     }
 
     componentDidMount = async () => {
-        const powers = await axios.get(`${process.env.REACT_APP_SERVER_API}/api/powers`);
+        const powers = await axios.get(`${this.state.serverUrl}/api/powers/names`);
         this.setState({
             powers: powers.data
         })
@@ -37,19 +39,21 @@ export class CreateCharacter extends Component {
     createCharacter = async (e) => {
         e.preventDefault();
         const requestBody = {
-            name: this.state.characterName,
-            gender: this.state.characterGender,
-            psi_powers: this.state.characterPowers
+            "name": this.state.characterName,
+            "gender": this.state.characterGender,
+            "psiPowers": this.state.characterPowers
 
         }
-        const res = await axios.post(`${process.env.REACT_APP_SERVER_API}/api/character`, requestBody);
+
+        const res = await axios.post(`${this.state.serverUrl}/api/character`, requestBody);
         console.log(res);
     }
 
     render() {
         return (
-            <div>
-                <form onSubmit={this.createCharacter}>
+            <div className="content-wrapper">
+                <Header />
+                <form className="add-character-form" onSubmit={this.createCharacter}>
                     <fieldset>
                         <legend>
                             Add A new Character

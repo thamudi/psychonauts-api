@@ -5,3 +5,8 @@
 .box {
     border: 1px solid var(--theme-border-color);
 }
+
+.add-character-form label {
+    padding         : 0;
+    background-color: transparent;
+}
