@@ -11,7 +11,7 @@ export class PsiPowers extends Component {
             "content": {
                 "title": "PSI Powers",
                 "desc": "An endpoint responsible for everything related to PSI Powers in Psychonauts",
-                "endpoint": `${process.env.REACT_APP_SERVER_API}/powers`,
+                "endpoint": `${process.env.REACT_APP_SERVER_API}/api/powers`,
                 "searchQueries": [
                     ["limit", 5, "Limit the number of Psi Powers you get back from the API", "Nothing to see Here"],
                     ["name", "telekinesis", "Get the Psi Power by their unique name", "Nothing to see Here"],

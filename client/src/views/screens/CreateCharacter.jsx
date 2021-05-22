@@ -15,7 +15,7 @@ export class CreateCharacter extends Component {
         }
     }
 
-    componentDidMount = async () => {
+    UNSAFE_componentWillMount = async () => {
         const powers = await axios.get(`${this.state.serverUrl}/api/powers/names`);
         this.setState({
             powers: powers.data

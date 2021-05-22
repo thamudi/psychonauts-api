@@ -34,7 +34,7 @@ export class Table extends Component {
                     "body": "An endpoint to get a PSI-Power by its name within this API",
                     "linkText": "psi-powers",
                     "linkAnchor": "psi-powers#name",
-                    "endpoint": `${process.env.REACT_APP_SERVER_API}/psi-powers?name=psi-punch`
+                    "endpoint": `${process.env.REACT_APP_SERVER_API}/powers?name=psi-punch`
                 },
 
             ]

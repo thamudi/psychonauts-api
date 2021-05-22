@@ -26,6 +26,6 @@ Characters endpoint
 ---------------------------
 */
 router.get('/characters', getCharacters);
-router.post('/character', addCharacter);
+// router.post('/character', addCharacter);
 
 module.exports = router;

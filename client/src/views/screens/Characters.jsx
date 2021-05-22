@@ -10,7 +10,7 @@ export class Characters extends Component {
             "content": {
                 "title": "Characters",
                 "desc": "An endpoint responsible for everything related to the characters of Psychonauts",
-                "endpoint": `${process.env.REACT_APP_SERVER_API}/characters`,
+                "endpoint": `${process.env.REACT_APP_SERVER_API}/api/characters`,
                 "searchQueries": [
                     ["limit", 5, "Limit the number of Characters you get back from the API", "Nothing to see Here"],
                     ["gender", "male", "Get the Characters by their Gender", "Nothing to see Here"],
