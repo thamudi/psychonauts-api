@@ -9,6 +9,12 @@ const connectDb = async (MONGO_URL) => {
         useCreateIndex: true,
         useFindAndModify: false,
         useUnifiedTopology: true,
+    }).catch(error => {
+        console.log('=================');
+        console.log('An error ocurred');
+        console.log('=================');
+        console.log(error);
+        console.log('=================');
     });
     console.log('======================================');
     console.info(`Mongo DB is connected to: ${connection.connection.host}`);

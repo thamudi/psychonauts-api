@@ -25,6 +25,14 @@ exports.getCharacters = (request, response) => {
 
     if (numberOfQueries === 0) {
         Character.find((error, characters) => {
+            if (err) {
+                console.log('==== DB ====');
+                console.log(err);
+                console.log('============');
+                return response.status(401).json({
+                    errors: err
+                });
+            }
             response.json(characters);
         });
     } else {
@@ -41,16 +49,40 @@ exports.getCharacters = (request, response) => {
             switch (key) {
                 case 'limit':
                     Character.find((err, characters) => {
+                        if (err) {
+                            console.log('==== DB ====');
+                            console.log(err);
+                            console.log('============');
+                            return response.status(401).json({
+                                errors: err
+                            });
+                        }
                         response.json(characters);
                     }).limit(Number(limit));
                     break;
                 case 'gender':
                     Character.find({ gender: gender }, (err, characters) => {
+                        if (err) {
+                            console.log('==== DB ====');
+                            console.log(err);
+                            console.log('============');
+                            return response.status(401).json({
+                                errors: err
+                            });
+                        }
                         response.json(characters);
                     });
                     break;
                 case 'name':
                     Character.findOne({ name: { $regex: name, $options: 'i' } }, (err, characters) => {
+                        if (err) {
+                            console.log('==== DB ====');
+                            console.log(err);
+                            console.log('============');
+                            return response.status(401).json({
+                                errors: err
+                            });
+                        }
                         response.json(characters);
                     });
                     break;
