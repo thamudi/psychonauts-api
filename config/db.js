@@ -4,7 +4,6 @@ require('dotenv').config();
 
 const connectDb = async (MONGO_URL) => {
     const connection = await mongoose.connect(MONGO_URL, {
-        //TODO: check these
         useNewUrlParser: true,
         useCreateIndex: true,
         useFindAndModify: false,

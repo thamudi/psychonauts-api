@@ -154,14 +154,3 @@ export class Content extends Component {
 }
 
 export default Content
-
-/*TODO
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-1 - fix the setState when changes are made within the input field
-2 - send a bulk promise on page load
-3 - send each request individually without having to reflect all the changes on
-    the other requests
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
- */
