@@ -3,57 +3,57 @@
         {
             "name": "Clairvoyance",
             "description": "Allows the user to see through the minds of others.",
-            "img": "https://psychonauts-api.herokuapp.com/images/clairvoyance.png"
+            "img": "https://psychonauts-api.herokuapp.com/images/api/clairvoyance.png"
         },
         {
             "name": "Confusion",
             "description": "Allows the user to confuse enemies.",
-            "img": "https://psychonauts-api.herokuapp.com/images/confusion.png"
+            "img": "https://psychonauts-api.herokuapp.com/images/api/confusion.png"
         },
         {
             "name": "Herbaphony",
             "description": "Allows the user to speak to plants.",
-            "img": "https://psychonauts-api.herokuapp.com/images"
+            "img": ""
         },
         {
             "name": "Hydrokinesis",
             "description": "Allows the user to control the movement of water.",
-            "img": "https://psychonauts-api.herokuapp.com/images/hydrokinesis.png"
+            "img": "https://psychonauts-api.herokuapp.com/images/api/hydrokinesis.png"
         },
         {
             "name": "Invisibility",
             "description": "Allows the user to turn invisible for a short period of time.",
-            "img": "https://psychonauts-api.herokuapp.com/images/invisibility.png"
+            "img": "https://psychonauts-api.herokuapp.com/images/api/invisibility.png"
         },
         {
             "name": "Levitation",
             "description": "Allows the user to levitate using a levitation ball.",
-            "img": "https://psychonauts-api.herokuapp.com/images/levitation.png"
+            "img": "https://psychonauts-api.herokuapp.com/images/api/levitation.png"
         },
         {
             "name": "Marksmanship",
             "description": "Allows the user to strike things down using their mind.",
-            "img": "https://psychonauts-api.herokuapp.com/images/marksmanship.png"
+            "img": "https://psychonauts-api.herokuapp.com/images/api/marksmanship.png"
         },
         {
             "name": "PSI-Punch",
             "description": "Allows the user to break objects using their mind.",
-            "img": "https://psychonauts-api.herokuapp.com/images/psi-punch.jpg"
+            "img": "https://psychonauts-api.herokuapp.com/images/api/psi-punch.jpg"
         },
         {
             "name": "Pyrokinesis",
             "description": "Allows the user to set objects on fire using their mind.",
-            "img": "https://psychonauts-api.herokuapp.com/images/pyrokinesis.png"
+            "img": "https://psychonauts-api.herokuapp.com/images/api/pyrokinesis.png"
         },
         {
             "name": "Shield",
             "description": "Allows the user to create a psychic shield.",
-            "img": "https://psychonauts-api.herokuapp.com/images/shield.png"
+            "img": "https://psychonauts-api.herokuapp.com/images/api/shield.png"
         },
         {
             "name": "Telekinesis",
             "description": "Allows the user to move objects with their mind.",
-            "img": "https://psychonauts-api.herokuapp.com/images/telekinesis.png"
+            "img": "https://psychonauts-api.herokuapp.com/images/api/telekinesis.png"
         }
     ]
 }
