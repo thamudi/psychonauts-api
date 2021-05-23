@@ -2,55 +2,76 @@
 
 An Api Tribute to the cult classic game Psychonauts
 
-## Technologies:
+___
+__DISCLAIMER__:
+
+- Psychonauts is a product of [Double Fine](<https://www.doublefine.com>)
+- I do not by any form claim ownership to Double Fine's Characters and IPs
+- This Website is a fan service and for educational proposes only!
+
+___
+
+## Technologies
 
 - DB: Mongo
-- Backend: Express 
+- Backend: Express
 - Frontend: React
 - Runtime: NodeJs
 
-
-## Usage:
+## Usage
 
 For now it has two endpoints:
 
 - To get the psi powers:
+
 ```
 https://psychonauts-api.herokuapp.com/api/powers
 ```
 
 - To get the charachters:
+
 ```
 https://psychonauts-api.herokuapp.com/api/characters
 ```
+
 ___
 
 - The `characters` endpoint has the following search queries
 - Limit: limits the number of items returned
+
 ```
 /api/characters?limit=2 
 ```
+
 - Name: returns an item by its name
+
 ```
 /api/characters?name=invisibility 
 ```
+
 - Gender: Returns an array of characters based on their gender
+
 ```
 /api/characters?gender=female
 ```
+
 ___
 
 - The `powers` endpoint has the following search queries
 - Limit: limits the number of items returned
+
 ```
 /api/powers?limit=2 
 ```
+
 - Name: returns an item by its name
+
 ```
 /api/powers?name=invisibility 
 ```
 
-ex `powers` response: 
+ex `powers` response:
+
 ```json
 [
   {
@@ -94,6 +115,7 @@ ex `powers` response:
 ___
 
 ex `character` response:
+
 ```json
 {
   "gender": "male",
