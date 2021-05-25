@@ -2,6 +2,8 @@
 
 An Api Tribute to the cult classic game Psychonauts
 
+Now offically on [public-apis](https://github.com/public-apis/public-apis#games--comics) 🎉🎉 🍕
+
 ___
 __DISCLAIMER__:
 
