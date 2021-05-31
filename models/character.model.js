@@ -26,7 +26,12 @@ const characterSchema = new mongoose.Schema({
         trim: true
     },
 
-    psi_powers: [psiPowers.psiPowersSchema]
+    img: {
+        type: String,
+        default: 'not-found'
+    },
+
+    psiPowers: [psiPowers.psiPowersSchema]
 
 });
 

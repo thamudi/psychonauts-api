@@ -24,7 +24,7 @@ exports.getCharacters = (request, response) => {
     const numberOfQueries = Object.keys(request.query).length;
 
     if (numberOfQueries === 0) {
-        Character.find((error, characters) => {
+        Character.find((err, characters) => {
             if (err) {
                 console.log('==== DB ====');
                 console.log(err);
@@ -114,7 +114,7 @@ that character uses
 exports.addCharacter = (request, response) => {
 
     const { name, gender, psiPowers } = request.body;
-
+    const imgPath = name.toLocaleLowerCase().split(' ').join('-');
     Character.findOne({ name }).exec((err, character) => {
         if (character) {
             return response.status(400).json({
@@ -132,6 +132,7 @@ exports.addCharacter = (request, response) => {
             const newCharacter = new Character({
                 name: name,
                 gender: gender,
+                img: `https://psychonauts-api.herokuapp.com/images/api/characters/${imgPath}.png`,
                 psiPowers: chosenPowers
             });
 
