@@ -13,28 +13,28 @@ export class Table extends Component {
                     "body": "An endpoint to get all the characters within this API",
                     "linkText": "characters",
                     "linkAnchor": "characters",
-                    "endpoint": `${process.env.REACT_APP_SERVER_API}/characters`
+                    "endpoint": `${process.env.REACT_APP_SERVER_API}/api/characters`
                 },
                 {
                     "title": "Get a single character",
                     "body": "An endpoint to get a character by their name within this API",
                     "linkText": "characters",
                     "linkAnchor": "characters#name",
-                    "endpoint": `${process.env.REACT_APP_SERVER_API}/characters?name=razputin`
+                    "endpoint": `${process.env.REACT_APP_SERVER_API}/api/characters?name=razputin`
                 },
                 {
                     "title": "Get PSI-Powers",
                     "body": "An endpoint to get all the PSI-Powers within this API",
                     "linkText": "psi-powers",
                     "linkAnchor": "psi-powers",
-                    "endpoint": `${process.env.REACT_APP_SERVER_API}/psi-powers`
+                    "endpoint": `${process.env.REACT_APP_SERVER_API}/api/psi-powers`
                 },
                 {
                     "title": "Get a single PSI-Powers",
                     "body": "An endpoint to get a PSI-Power by its name within this API",
                     "linkText": "psi-powers",
                     "linkAnchor": "psi-powers#name",
-                    "endpoint": `${process.env.REACT_APP_SERVER_API}/powers?name=psi-punch`
+                    "endpoint": `${process.env.REACT_APP_SERVER_API}/api/powers?name=psi-punch`
                 },
 
             ]
