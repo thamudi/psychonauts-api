@@ -1,0 +1,37 @@
+body {
+  @apply antialiased;
+
+  @apply bg-psychonaut-green-400 text-slate-100;
+
+  @apply bg-site-background bg-top bg-no-repeat bg-cover bg-fixed;
+}
+
+a {
+  @apply text-psychonaut-green-100;
+}
+a:hover {
+  @apply text-psychonaut-green-200;
+}
+
+.box {
+  @apply border-solid border-[1px] border-psychonaut-gray-500;
+}
+
+code {
+  @apply text-psychonaut-green-300 bg-psychonaut-gray-600;
+  @apply p-1;
+  @apply font-mono text-lg;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-bold;
+}
+
+p {
+  @apply my-2;
+}

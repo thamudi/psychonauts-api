@@ -1,0 +1,57 @@
+[
+  {
+    "description": "Allows the user to move objects with their mind.",
+    "img": "/images/api/telekinesis.png",
+    "name": "telekinesis"
+  },
+  {
+    "description": "Allows the user to levitate using a levitation ball.",
+    "img": "/images/api/levitation.png",
+    "name": "levitation"
+  },
+  {
+    "description": "Allows the user to see through the minds of others.",
+    "img": "/images/api/clairvoyance.png",
+    "name": "clairvoyance"
+  },
+  {
+    "description": "Allows the user to control the movement of water.",
+    "img": "/images/api/hydrokinesis.png",
+    "name": "hydrokinesis"
+  },
+  {
+    "description": "Allows the user to set objects on fire using their mind.",
+    "img": "/images/api/pyrokinesis.png",
+    "name": "pyrokinesis"
+  },
+  {
+    "description": "Allows the user to speak to plants.",
+    "img": "",
+    "name": "herbaphony"
+  },
+  {
+    "description": "Allows the user to break objects using their mind.",
+    "img": "/images/api/psi-punch.jpg",
+    "name": "psi-punch"
+  },
+  {
+    "description": "Allows the user to create a psychic shield.",
+    "img": "/images/api/shield.png",
+    "name": "shield"
+  },
+  {
+    "description": "Allows the user to confuse enemies.",
+    "img": "/images/api/confusion.png",
+    "name": "confusion"
+  },
+  {
+    "description": "Allows the user to turn invisible for a short period of time.",
+    "img": "/images/api/invisibility.png",
+    "name": "invisibility"
+  },
+  {
+    "description": "Allows the user to strike things down using their mind.",
+    "img": "/images/api/marksmanship.png",
+    "name": "marksmanship"
+  }
+]
