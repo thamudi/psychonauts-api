@@ -68,9 +68,10 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
-# dotenv environment variables file
+# Local env files
 .env
-.env.test
+.env.*
+!.env.example
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -78,8 +79,11 @@ typings/
 # Next.js build output
 .next
 
-# Nuxt.js build / generate output
+# Nuxt dev/build outputs
+.output
 .nuxt
+.nitro
+.cache
 dist
 
 # Gatsby files
@@ -102,3 +106,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Misc
+.DS_Store
+.fleet
+.idea

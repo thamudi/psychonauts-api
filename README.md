@@ -15,10 +15,7 @@ ___
 
 ## Technologies
 
-- DB: Mongo
-- Backend: Express
-- Frontend: React
-- Runtime: NodeJs
+- Nuxt3
 
 ## Usage
 
