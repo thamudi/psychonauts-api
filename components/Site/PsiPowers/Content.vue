@@ -102,7 +102,7 @@
 </script>
 <style scoped lang="postcss">
   form {
-    @apply flex;
+    @apply flex flex-col md:flex-row;
     @apply text-base;
   }
 
