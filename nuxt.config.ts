@@ -11,11 +11,7 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: [
-    '@nuxtjs/html-validator',
-    '@vueuse/nuxt',
-    '@nuxtjs/tailwindcss'
-  ],
+  modules: ['@vueuse/nuxt', '@nuxtjs/tailwindcss'],
 
   runtimeConfig: {
     public: {

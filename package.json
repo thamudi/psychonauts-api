@@ -14,12 +14,12 @@
     "@types/node": "^20",
     "@vueuse/core": "^10.7.2",
     "@vueuse/nuxt": "^10.7.2",
-    "nuxt": "^3.10.0",
     "prettier": "^3.2.5",
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@nuxtjs/html-validator": "^1.6.0",
-    "typed.js": "^2.1.0"
+    "nuxt": "^3.10.0",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
   }
 }
