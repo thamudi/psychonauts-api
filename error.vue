@@ -10,7 +10,7 @@
             <UIHeaderHero />
             <!-- width="1000"
             height="200" -->
-            <nuxt-img alt="not found" src="images/404.png" />
+            <img alt="not found" src="/images/404.png"/>
             <UIFooter />
           </div>
         </div>
