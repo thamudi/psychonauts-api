@@ -20,8 +20,6 @@
   },
   "dependencies": {
     "@nuxtjs/html-validator": "^1.6.0",
-    "@nuxtjs/robots": "^3.0.0",
-    "nuxt-simple-sitemap": "^2.7.0",
     "typed.js": "^2.1.0"
   }
 }

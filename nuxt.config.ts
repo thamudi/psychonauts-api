@@ -14,9 +14,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/html-validator',
     '@vueuse/nuxt',
-    '@nuxtjs/tailwindcss',
-    'nuxt-simple-sitemap',
-    '@nuxtjs/robots',
+    '@nuxtjs/tailwindcss'
   ],
 
   runtimeConfig: {
