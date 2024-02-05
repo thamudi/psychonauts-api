@@ -15,7 +15,6 @@ export default defineNuxtConfig({
     '@nuxtjs/html-validator',
     '@vueuse/nuxt',
     '@nuxtjs/tailwindcss',
-    '@nuxt/image-edge',
     'nuxt-simple-sitemap',
     '@nuxtjs/robots',
   ],

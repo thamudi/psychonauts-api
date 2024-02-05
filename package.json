@@ -10,7 +10,6 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@nuxt/image-edge": "^1.3.0-28450032.ccc59a4",
     "@nuxtjs/tailwindcss": "^6.11.3",
     "@types/node": "^20",
     "@vueuse/core": "^10.7.2",
