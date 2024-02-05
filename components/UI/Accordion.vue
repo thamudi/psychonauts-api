@@ -2,9 +2,11 @@
   <button
     type="button"
     @click="toggle"
+    class="flex justify-between"
     :class="`accordion ${active ? 'active' : ''}`"
   >
     {{ props.title }}
+    <span><i class="arrow" :class="active ? 'up' : 'down'"></i></span>
   </button>
   <div class="panel">
     <div class="panel-container">
@@ -78,6 +80,9 @@
   .active,
   .accordion:hover {
     @apply bg-psychonaut-green-200 text-[#0e191a];
+    .arrow {
+      @apply border-[#0e191a];
+    }
   }
 
   .panel {
@@ -91,5 +96,22 @@
     @apply py-0 px-5 my-4;
     @apply bg-inherit;
     @apply transition duration-[0.2s] ease-out;
+  }
+
+  .arrow {
+    @apply border-solid border-psychonaut-green-200;
+    border-width: 0 2px 2px 0;
+    @apply inline-block;
+    @apply p-1;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
   }
 </style>
