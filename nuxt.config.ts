@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['@vueuse/nuxt', '@nuxtjs/tailwindcss'],
+  modules: ['@vueuse/nuxt', '@nuxtjs/tailwindcss', 'nuxt-mongoose'],
 
   runtimeConfig: {
     public: {
