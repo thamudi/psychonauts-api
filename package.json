@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "nuxt": "^3.10.0",
+    "nuxt-mongoose": "^1.0.5",
     "vue": "^3.4.15",
     "vue-router": "^4.2.5"
   }
