@@ -32,7 +32,7 @@
       body: 'An endpoint to get all the PSI-Powers within this API',
       linkText: 'psi-powers',
       linkAnchor: 'psi-powers',
-      endpoint: `/api/psi-powers`,
+      endpoint: `/api/powers`,
     },
     {
       title: 'Get a single PSI-Powers',

@@ -87,8 +87,8 @@
     }, 4000)
   }
 
-  const { data: limit } = await useFetch(`/api/psi-powers?limit=${form.limit}`)
-  const { data: name } = await useFetch(`/api/psi-powers?name=${form.name}`)
+  const { data: limit } = await useFetch(`/api/powers?limit=${form.limit}`)
+  const { data: name } = await useFetch(`/api/powers?name=${form.name}`)
 
   const state = reactive({
     limit: limit,
@@ -96,7 +96,7 @@
   })
 
   const fetchNewData = async (e, name) => {
-    const { data } = await useFetch(`/api/psi-powers?${name}=${form[name]}`)
+    const { data } = await useFetch(`/api/powers?${name}=${form[name]}`)
     state[name] = data
   }
 </script>

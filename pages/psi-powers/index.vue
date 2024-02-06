@@ -11,7 +11,7 @@
   const content = ref({
     title: 'PSI Powers',
     desc: 'An endpoint responsible for everything related to PSI Powers in Psychonauts',
-    endpoint: `/api/psi-powers`,
+    endpoint: `/api/powers`,
     searchQueries: [
       [
         'limit',
