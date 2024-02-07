@@ -1,0 +1,34 @@
+name: 🐞 🐳 Docker Bug report
+description: Write a report to help improve Psychonauts API
+labels: [pending triage]
+body:
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is. If you intend to file a PR for this issue, please let us know in the description. Thanks a lot!
+      placeholder: Bug description
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Provide a step by step on how you encountered the bug.
+      placeholder: Reproduction
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: |
+        Please try not to insert an image, but copy and paste the log text.
+      render: shell-script
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: If applicable, add any other context about the problem here.
