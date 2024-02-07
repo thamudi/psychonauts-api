@@ -21,6 +21,6 @@ ___
 [![Tailwind CSS](https://img.shields.io/static/v1?style=for-the-badge&message=Tailwind+CSS&color=222222&logo=Tailwind+CSS&logoColor=06B6D4&label=)](https://tailwindcss.com/docs/installation)
 [![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/atlas)
 
-## Usage 🤔
+## Usaging the API 🤔
 
 Refer to the [wiki](https://github.com/thamudi/psychonauts-api/wiki/Endpoints) on how to use the api 👈
