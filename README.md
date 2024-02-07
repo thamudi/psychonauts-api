@@ -1,6 +1,7 @@
 [![StandWithPalestine](https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/StandWithPalestine.svg)](https://techforpalestine.org/learn-more)
 
 # Psychonauts-api
+![Vercel](https://vercelbadge.vercel.app/api/thamudi/psychonauts-api)
 
 An Api Tribute to the cult classic game Psychonauts
 
@@ -20,6 +21,12 @@ ___
 [![Nuxtjs](https://img.shields.io/badge/Nuxt-002E3B?style=for-the-badge&logo=nuxtdotjs&logoColor=#00DC82)](https://nuxt.com/docs/getting-started/introduction)
 [![Tailwind CSS](https://img.shields.io/static/v1?style=for-the-badge&message=Tailwind+CSS&color=222222&logo=Tailwind+CSS&logoColor=06B6D4&label=)](https://tailwindcss.com/docs/installation)
 [![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/atlas)
+
+### Supports Docker 💪🐳
+[![Docker](https://img.shields.io/badge/docker-%2320232a.svg?style=for-the-badge&logo=docker&logoColor=2496ec&color=0a3f8c)](https://docs.docker.com/get-started/)
+
+### Hosted on vercel 🧑‍💻
+[![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/docs)
 
 ## Usaging the API 🤔
 
