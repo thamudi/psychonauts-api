@@ -1,0 +1,27 @@
+name: 🐞 General Bug report
+description: Write a report to help improve Psychonauts API
+labels: [pending triage]
+body:
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is. If you intend to file a PR for this issue, please let us know in the description. Thanks a lot!
+      placeholder: Bug description
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Provide a step by step on how you encountered the bug.
+      placeholder: Reproduction
+    validations:
+      required: true    
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: |
+        Optional if reproduction is provided. Please try not to insert an image, but copy and paste the log text.
+      render: shell-script
