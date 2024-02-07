@@ -1,0 +1,101 @@
+[
+  {
+    "_id": {
+      "$oid": "60a8a18f74e598888ff866a9"
+    },
+    "description": "Allows the user to strike things down using their mind.",
+    "img": "https://localhost:3000/images/api/powers/marksmanship.png",
+    "name": "marksmanship",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60a8a18f74e598888ff866a8"
+    },
+    "description": "Allows the user to levitate using a levitation ball.",
+    "img": "https://localhost:3000/images/api/powers/levitation.png",
+    "name": "levitation",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60a8a18f74e598888ff866a5"
+    },
+    "description": "Allows the user to speak to plants.",
+    "img": "",
+    "name": "herbaphony",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60a8a18f74e598888ff866ac"
+    },
+    "description": "Allows the user to create a psychic shield.",
+    "img": "https://localhost:3000/images/api/powers/shield.png",
+    "name": "shield",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60a8a18f74e598888ff866a7"
+    },
+    "description": "Allows the user to turn invisible for a short period of time.",
+    "img": "https://localhost:3000/images/api/powers/invisibility.png",
+    "name": "invisibility",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60a8a18f74e598888ff866ad"
+    },
+    "description": "Allows the user to move objects with their mind.",
+    "img": "https://localhost:3000/images/api/powers/telekinesis.png",
+    "name": "telekinesis",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60a8a18f74e598888ff866aa"
+    },
+    "description": "Allows the user to break objects using their mind.",
+    "img": "https://localhost:3000/images/api/powers/psi-punch.jpg",
+    "name": "psi-punch",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60a8a18f74e598888ff866ab"
+    },
+    "description": "Allows the user to set objects on fire using their mind.",
+    "img": "https://localhost:3000/images/api/powers/pyrokinesis.png",
+    "name": "pyrokinesis",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60a8a18f74e598888ff866a6"
+    },
+    "description": "Allows the user to control the movement of water.",
+    "img": "https://localhost:3000/images/api/powers/hydrokinesis.png",
+    "name": "hydrokinesis",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60a8a18f74e598888ff866a4"
+    },
+    "description": "Allows the user to confuse enemies.",
+    "img": "https://localhost:3000/images/api/powers/confusion.png",
+    "name": "confusion",
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60a8a18f74e598888ff866a3"
+    },
+    "description": "Allows the user to see through the minds of others.",
+    "img": "https://localhost:3000/images/api/powers/clairvoyance.png",
+    "name": "clairvoyance",
+    "__v": 0
+  }
+]

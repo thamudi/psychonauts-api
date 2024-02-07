@@ -1,0 +1,739 @@
+[
+  {
+    "_id": {
+      "$oid": "60b54b8fe5e37f508faf8eba"
+    },
+    "gender": "male",
+    "img": "https://localhost:3000/images/api/characters/quentin-hedgemouse.png",
+    "name": "quentin hedgemouse",
+    "psiPowers": [
+      {
+        "description": "Allows the user to levitate using a levitation ball.",
+        "img": "https://localhost:3000/images/api/powers/levitation.png",
+        "_id": {
+          "$oid": "60b54b8fe5e37f508faf8ebb"
+        },
+        "name": "levitation"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b545a812a35d412cf0fa44"
+    },
+    "gender": "male",
+    "img": "https://localhost:3000/images/api/characters/razputin-aquato.png",
+    "name": "razputin aquato",
+    "psiPowers": [
+      {
+        "description": "Allows the user to see through the minds of others.",
+        "img": "https://localhost:3000/images/api/powers/clairvoyance.png",
+        "_id": {
+          "$oid": "60b545a812a35d412cf0fa45"
+        },
+        "name": "clairvoyance"
+      },
+      {
+        "description": "Allows the user to confuse enemies.",
+        "img": "https://localhost:3000/images/api/powers/confusion.png",
+        "_id": {
+          "$oid": "60b545a812a35d412cf0fa46"
+        },
+        "name": "confusion"
+      },
+      {
+        "description": "Allows the user to turn invisible for a short period of time.",
+        "img": "https://localhost:3000/images/api/powers/invisibility.png",
+        "_id": {
+          "$oid": "60b545a812a35d412cf0fa47"
+        },
+        "name": "invisibility"
+      },
+      {
+        "description": "Allows the user to levitate using a levitation ball.",
+        "img": "https://localhost:3000/images/api/powers/levitation.png",
+        "_id": {
+          "$oid": "60b545a812a35d412cf0fa48"
+        },
+        "name": "levitation"
+      },
+      {
+        "description": "Allows the user to strike things down using their mind.",
+        "img": "https://localhost:3000/images/api/powers/marksmanship.png",
+        "_id": {
+          "$oid": "60b545a812a35d412cf0fa49"
+        },
+        "name": "marksmanship"
+      },
+      {
+        "description": "Allows the user to break objects using their mind.",
+        "img": "https://localhost:3000/images/api/powers/psi-punch.jpg",
+        "_id": {
+          "$oid": "60b545a812a35d412cf0fa4a"
+        },
+        "name": "psi-punch"
+      },
+      {
+        "description": "Allows the user to set objects on fire using their mind.",
+        "img": "https://localhost:3000/images/api/powers/pyrokinesis.png",
+        "_id": {
+          "$oid": "60b545a812a35d412cf0fa4b"
+        },
+        "name": "pyrokinesis"
+      },
+      {
+        "description": "Allows the user to create a psychic shield.",
+        "img": "https://localhost:3000/images/api/powers/shield.png",
+        "_id": {
+          "$oid": "60b545a812a35d412cf0fa4c"
+        },
+        "name": "shield"
+      },
+      {
+        "description": "Allows the user to move objects with their mind.",
+        "img": "https://localhost:3000/images/api/powers/telekinesis.png",
+        "_id": {
+          "$oid": "60b545a812a35d412cf0fa4d"
+        },
+        "name": "telekinesis"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b54aaee5e37f508faf8eb0"
+    },
+    "gender": "female",
+    "img": "https://localhost:3000/images/api/characters/milka-phage.png",
+    "name": "milka phage",
+    "psiPowers": [
+      {
+        "description": "Allows the user to levitate using a levitation ball.",
+        "img": "https://localhost:3000/images/api/powers/levitation.png",
+        "_id": {
+          "$oid": "60b54aaee5e37f508faf8eb1"
+        },
+        "name": "levitation"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b546b73972a945fb4332ca"
+    },
+    "gender": "female",
+    "img": "https://localhost:3000/images/api/characters/milla-vodello.png",
+    "name": "milla vodello",
+    "psiPowers": [
+      {
+        "description": "Allows the user to levitate using a levitation ball.",
+        "img": "https://localhost:3000/images/api/powers/levitation.png",
+        "_id": {
+          "$oid": "60b546b73972a945fb4332cb"
+        },
+        "name": "levitation"
+      },
+      {
+        "description": "Allows the user to strike things down using their mind.",
+        "img": "https://localhost:3000/images/api/powers/marksmanship.png",
+        "_id": {
+          "$oid": "60b546b73972a945fb4332cc"
+        },
+        "name": "marksmanship"
+      },
+      {
+        "description": "Allows the user to move objects with their mind.",
+        "img": "https://localhost:3000/images/api/powers/telekinesis.png",
+        "_id": {
+          "$oid": "60b546b73972a945fb4332cd"
+        },
+        "name": "telekinesis"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b5466c3972a945fb4332c4"
+    },
+    "gender": "male",
+    "img": "https://localhost:3000/images/api/characters/morceau-oleander.png",
+    "name": "morceau oleander",
+    "psiPowers": [
+      {
+        "description": "Allows the user to levitate using a levitation ball.",
+        "img": "https://localhost:3000/images/api/powers/levitation.png",
+        "_id": {
+          "$oid": "60b5466c3972a945fb4332c5"
+        },
+        "name": "levitation"
+      },
+      {
+        "description": "Allows the user to strike things down using their mind.",
+        "img": "https://localhost:3000/images/api/powers/marksmanship.png",
+        "_id": {
+          "$oid": "60b5466c3972a945fb4332c6"
+        },
+        "name": "marksmanship"
+      },
+      {
+        "description": "Allows the user to move objects with their mind.",
+        "img": "https://localhost:3000/images/api/powers/telekinesis.png",
+        "_id": {
+          "$oid": "60b5466c3972a945fb4332c7"
+        },
+        "name": "telekinesis"
+      },
+      {
+        "description": "Allows the user to create a psychic shield.",
+        "img": "https://localhost:3000/images/api/powers/shield.png",
+        "_id": {
+          "$oid": "60b5466c3972a945fb4332c8"
+        },
+        "name": "shield"
+      },
+      {
+        "description": "Allows the user to break objects using their mind.",
+        "img": "https://localhost:3000/images/api/powers/psi-punch.jpg",
+        "_id": {
+          "$oid": "60b5466c3972a945fb4332c9"
+        },
+        "name": "psi-punch"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b54863e5e37f508faf8e93"
+    },
+    "gender": "male",
+    "img": "https://localhost:3000/images/api/characters/clem-foote.png",
+    "name": "clem foote",
+    "psiPowers": [
+      {
+        "description": "Allows the user to levitate using a levitation ball.",
+        "img": "https://localhost:3000/images/api/powers/levitation.png",
+        "_id": {
+          "$oid": "60b54863e5e37f508faf8e94"
+        },
+        "name": "levitation"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b5493de5e37f508faf8e9e"
+    },
+    "gender": "female",
+    "img": "https://localhost:3000/images/api/characters/elka-doom.png",
+    "name": "elka doom",
+    "psiPowers": [
+      {
+        "description": "Allows the user to levitate using a levitation ball.",
+        "img": "https://localhost:3000/images/api/powers/levitation.png",
+        "_id": {
+          "$oid": "60b5493de5e37f508faf8e9f"
+        },
+        "name": "levitation"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b549fde5e37f508faf8ea6"
+    },
+    "gender": "female",
+    "img": "https://localhost:3000/images/api/characters/kitty-bubai.png",
+    "name": "kitty bubai",
+    "psiPowers": [
+      {
+        "description": "Allows the user to levitate using a levitation ball.",
+        "img": "https://localhost:3000/images/api/powers/levitation.png",
+        "_id": {
+          "$oid": "60b549fde5e37f508faf8ea7"
+        },
+        "name": "levitation"
+      },
+      {
+        "description": "Allows the user to move objects with their mind.",
+        "img": "https://localhost:3000/images/api/powers/telekinesis.png",
+        "_id": {
+          "$oid": "60b549fde5e37f508faf8ea8"
+        },
+        "name": "telekinesis"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b5472a252ee849f566c5b7"
+    },
+    "gender": "female",
+    "img": "https://localhost:3000/images/api/characters/lili-zanotto.png",
+    "name": "lili zanotto",
+    "psiPowers": [
+      {
+        "description": "Allows the user to levitate using a levitation ball.",
+        "img": "https://localhost:3000/images/api/powers/levitation.png",
+        "_id": {
+          "$oid": "60b5472a252ee849f566c5b8"
+        },
+        "name": "levitation"
+      },
+      {
+        "description": "Allows the user to strike things down using their mind.",
+        "img": "https://localhost:3000/images/api/powers/marksmanship.png",
+        "_id": {
+          "$oid": "60b5472a252ee849f566c5b9"
+        },
+        "name": "marksmanship"
+      },
+      {
+        "description": "Allows the user to move objects with their mind.",
+        "img": "https://localhost:3000/images/api/powers/telekinesis.png",
+        "_id": {
+          "$oid": "60b5472a252ee849f566c5ba"
+        },
+        "name": "telekinesis"
+      },
+      {
+        "description": "Allows the user to turn invisible for a short period of time.",
+        "img": "https://localhost:3000/images/api/powers/invisibility.png",
+        "_id": {
+          "$oid": "60b5472a252ee849f566c5bb"
+        },
+        "name": "invisibility"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b54841e5e37f508faf8e91"
+    },
+    "gender": "female",
+    "img": "https://localhost:3000/images/api/characters/chloe-barge.png",
+    "name": "chloe barge",
+    "psiPowers": [
+      {
+        "description": "Allows the user to levitate using a levitation ball.",
+        "img": "https://localhost:3000/images/api/powers/levitation.png",
+        "_id": {
+          "$oid": "60b54841e5e37f508faf8e92"
+        },
+        "name": "levitation"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b548bce5e37f508faf8e97"
+    },
+    "gender": "male",
+    "img": "https://localhost:3000/images/api/characters/bobby-zilch.png",
+    "name": "bobby zilch",
+    "psiPowers": [
+      {
+        "description": "Allows the user to levitate using a levitation ball.",
+        "img": "https://localhost:3000/images/api/powers/levitation.png",
+        "_id": {
+          "$oid": "60b548bce5e37f508faf8e98"
+        },
+        "name": "levitation"
+      },
+      {
+        "description": "Allows the user to move objects with their mind.",
+        "img": "https://localhost:3000/images/api/powers/telekinesis.png",
+        "_id": {
+          "$oid": "60b548bce5e37f508faf8e99"
+        },
+        "name": "telekinesis"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b54a61e5e37f508faf8eab"
+    },
+    "gender": "male",
+    "img": "https://localhost:3000/images/api/characters/maloof-canola.png",
+    "name": "maloof canola",
+    "psiPowers": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b54963e5e37f508faf8ea0"
+    },
+    "gender": "male",
+    "img": "https://localhost:3000/images/api/characters/elton-fir.png",
+    "name": "elton fir",
+    "psiPowers": [
+      {
+        "description": "Allows the user to levitate using a levitation ball.",
+        "img": "https://localhost:3000/images/api/powers/levitation.png",
+        "_id": {
+          "$oid": "60b54963e5e37f508faf8ea1"
+        },
+        "name": "levitation"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b54b2ce5e37f508faf8eb7"
+    },
+    "gender": "male",
+    "img": "https://localhost:3000/images/api/characters/psi-bear.png",
+    "name": "psi-bear",
+    "psiPowers": [
+      {
+        "description": "Allows the user to levitate using a levitation ball.",
+        "img": "https://localhost:3000/images/api/powers/levitation.png",
+        "_id": {
+          "$oid": "60b54b2ce5e37f508faf8eb8"
+        },
+        "name": "levitation"
+      },
+      {
+        "description": "Allows the user to move objects with their mind.",
+        "img": "https://localhost:3000/images/api/powers/telekinesis.png",
+        "_id": {
+          "$oid": "60b54b2ce5e37f508faf8eb9"
+        },
+        "name": "telekinesis"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b5488fe5e37f508faf8e95"
+    },
+    "gender": "female",
+    "img": "https://localhost:3000/images/api/characters/crystal-flowers-snagrash.png",
+    "name": "crystal flowers snagrash",
+    "psiPowers": [
+      {
+        "description": "Allows the user to levitate using a levitation ball.",
+        "img": "https://localhost:3000/images/api/powers/levitation.png",
+        "_id": {
+          "$oid": "60b5488fe5e37f508faf8e96"
+        },
+        "name": "levitation"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b549dae5e37f508faf8ea4"
+    },
+    "gender": "male",
+    "img": "https://localhost:3000/images/api/characters/james-theodore-hoofburger.png",
+    "name": "james theodore hoofburger",
+    "psiPowers": [
+      {
+        "description": "Allows the user to strike things down using their mind.",
+        "img": "https://localhost:3000/images/api/powers/marksmanship.png",
+        "_id": {
+          "$oid": "60b549dae5e37f508faf8ea5"
+        },
+        "name": "marksmanship"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b54615f6b5f34213783b66"
+    },
+    "gender": "male",
+    "img": "https://localhost:3000/images/api/characters/ford-cruller.png",
+    "name": "ford cruller",
+    "psiPowers": [
+      {
+        "description": "Allows the user to turn invisible for a short period of time.",
+        "img": "https://localhost:3000/images/api/powers/invisibility.png",
+        "_id": {
+          "$oid": "60b54615f6b5f34213783b67"
+        },
+        "name": "invisibility"
+      },
+      {
+        "description": "Allows the user to levitate using a levitation ball.",
+        "img": "https://localhost:3000/images/api/powers/levitation.png",
+        "_id": {
+          "$oid": "60b54615f6b5f34213783b68"
+        },
+        "name": "levitation"
+      },
+      {
+        "description": "Allows the user to strike things down using their mind.",
+        "img": "https://localhost:3000/images/api/powers/marksmanship.png",
+        "_id": {
+          "$oid": "60b54615f6b5f34213783b69"
+        },
+        "name": "marksmanship"
+      },
+      {
+        "description": "Allows the user to move objects with their mind.",
+        "img": "https://localhost:3000/images/api/powers/telekinesis.png",
+        "_id": {
+          "$oid": "60b54615f6b5f34213783b6a"
+        },
+        "name": "telekinesis"
+      },
+      {
+        "description": "Allows the user to set objects on fire using their mind.",
+        "img": "https://localhost:3000/images/api/powers/pyrokinesis.png",
+        "_id": {
+          "$oid": "60b54615f6b5f34213783b6b"
+        },
+        "name": "pyrokinesis"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b548dae5e37f508faf8e9a"
+    },
+    "gender": "male",
+    "img": "https://localhost:3000/images/api/characters/benny-fideleo.png",
+    "name": "benny fideleo",
+    "psiPowers": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b54a2ee5e37f508faf8ea9"
+    },
+    "gender": "female",
+    "img": "https://localhost:3000/images/api/characters/linda.png",
+    "name": "linda",
+    "psiPowers": [
+      {
+        "description": "Allows the user to create a psychic shield.",
+        "img": "https://localhost:3000/images/api/powers/shield.png",
+        "_id": {
+          "$oid": "60b54a2ee5e37f508faf8eaa"
+        },
+        "name": "shield"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b54a95e5e37f508faf8eae"
+    },
+    "gender": "male",
+    "img": "https://localhost:3000/images/api/characters/mikhail-bulgakov.png",
+    "name": "mikhail bulgakov",
+    "psiPowers": [
+      {
+        "description": "Allows the user to move objects with their mind.",
+        "img": "https://localhost:3000/images/api/powers/telekinesis.png",
+        "_id": {
+          "$oid": "60b54a95e5e37f508faf8eaf"
+        },
+        "name": "telekinesis"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b54ae9e5e37f508faf8eb2"
+    },
+    "gender": "male",
+    "img": "https://localhost:3000/images/api/characters/nils-lutefisk.png",
+    "name": "nils lutefisk",
+    "psiPowers": [
+      {
+        "description": "Allows the user to see through the minds of others.",
+        "img": "https://localhost:3000/images/api/powers/clairvoyance.png",
+        "_id": {
+          "$oid": "60b54ae9e5e37f508faf8eb3"
+        },
+        "name": "clairvoyance"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b54996e5e37f508faf8ea2"
+    },
+    "gender": "female",
+    "img": "https://localhost:3000/images/api/characters/franke-athens.png",
+    "name": "franke athens",
+    "psiPowers": [
+      {
+        "description": "Allows the user to move objects with their mind.",
+        "img": "https://localhost:3000/images/api/powers/telekinesis.png",
+        "_id": {
+          "$oid": "60b54996e5e37f508faf8ea3"
+        },
+        "name": "telekinesis"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b54c0ae5e37f508faf8ebc"
+    },
+    "gender": "male",
+    "img": "https://localhost:3000/images/api/characters/vernon-tripe.png",
+    "name": "vernon tripe",
+    "psiPowers": [],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b547b9252ee849f566c5c0"
+    },
+    "gender": "male",
+    "img": "https://localhost:3000/images/api/characters/augustus-aquato.png",
+    "name": "augustus aquato",
+    "psiPowers": [
+      {
+        "description": "Allows the user to strike things down using their mind.",
+        "img": "https://localhost:3000/images/api/powers/marksmanship.png",
+        "_id": {
+          "$oid": "60b547b9252ee849f566c5c1"
+        },
+        "name": "marksmanship"
+      },
+      {
+        "description": "Allows the user to move objects with their mind.",
+        "img": "https://localhost:3000/images/api/powers/telekinesis.png",
+        "_id": {
+          "$oid": "60b547b9252ee849f566c5c2"
+        },
+        "name": "telekinesis"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b5477f252ee849f566c5bc"
+    },
+    "gender": "male",
+    "img": "https://localhost:3000/images/api/characters/sasha-nein.png",
+    "name": "sasha nein",
+    "psiPowers": [
+      {
+        "description": "Allows the user to levitate using a levitation ball.",
+        "img": "https://localhost:3000/images/api/powers/levitation.png",
+        "_id": {
+          "$oid": "60b5477f252ee849f566c5bd"
+        },
+        "name": "levitation"
+      },
+      {
+        "description": "Allows the user to strike things down using their mind.",
+        "img": "https://localhost:3000/images/api/powers/marksmanship.png",
+        "_id": {
+          "$oid": "60b5477f252ee849f566c5be"
+        },
+        "name": "marksmanship"
+      },
+      {
+        "description": "Allows the user to move objects with their mind.",
+        "img": "https://localhost:3000/images/api/powers/telekinesis.png",
+        "_id": {
+          "$oid": "60b5477f252ee849f566c5bf"
+        },
+        "name": "telekinesis"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b54a77e5e37f508faf8eac"
+    },
+    "gender": "male",
+    "img": "https://localhost:3000/images/api/characters/melvin-sweetwind.png",
+    "name": "melvin sweetwind",
+    "psiPowers": [
+      {
+        "description": "Allows the user to levitate using a levitation ball.",
+        "img": "https://localhost:3000/images/api/powers/levitation.png",
+        "_id": {
+          "$oid": "60b54a77e5e37f508faf8ead"
+        },
+        "name": "levitation"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b54904e5e37f508faf8e9b"
+    },
+    "gender": "male",
+    "img": "https://localhost:3000/images/api/characters/dogen-boole.png",
+    "name": "dogen boole",
+    "psiPowers": [
+      {
+        "description": "Allows the user to strike things down using their mind.",
+        "img": "https://localhost:3000/images/api/powers/marksmanship.png",
+        "_id": {
+          "$oid": "60b54904e5e37f508faf8e9c"
+        },
+        "name": "marksmanship"
+      },
+      {
+        "description": "Allows the user to turn invisible for a short period of time.",
+        "img": "https://localhost:3000/images/api/powers/invisibility.png",
+        "_id": {
+          "$oid": "60b54904e5e37f508faf8e9d"
+        },
+        "name": "invisibility"
+      }
+    ],
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "60b54b08e5e37f508faf8eb4"
+    },
+    "gender": "female",
+    "img": "https://localhost:3000/images/api/characters/phoebe-love.png",
+    "name": "phoebe love",
+    "psiPowers": [
+      {
+        "description": "Allows the user to set objects on fire using their mind.",
+        "img": "https://localhost:3000/images/api/powers/pyrokinesis.png",
+        "_id": {
+          "$oid": "60b54b08e5e37f508faf8eb5"
+        },
+        "name": "pyrokinesis"
+      },
+      {
+        "description": "Allows the user to levitate using a levitation ball.",
+        "img": "https://localhost:3000/images/api/powers/levitation.png",
+        "_id": {
+          "$oid": "60b54b08e5e37f508faf8eb6"
+        },
+        "name": "levitation"
+      }
+    ],
+    "__v": 0
+  }
+]
