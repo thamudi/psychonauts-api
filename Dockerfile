@@ -1,6 +1,3 @@
-# set global args
-ARG USER=node
-
 ###########
 # BUILDER #
 ###########
@@ -23,14 +20,11 @@ FROM node:18-slim
 
 # copy builder output to project workdir
 WORKDIR /app
-COPY --from=builder --chown=${USER}:${USER} /workspace/package.json /app/
-COPY --from=builder --chown=${USER}:${USER} /workspace/.output /app/.output
-
-# set user context
-USER ${USER}
+COPY --from=builder /workspace/package.json /app/
+COPY --from=builder /workspace/.output /app/.output
 
 # expose port
-EXPOSE ${PORT}
+EXPOSE 3000
 
 # run for production
 CMD [ "node", "/app/.output/server/index.mjs"]
