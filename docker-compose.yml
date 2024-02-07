@@ -7,6 +7,34 @@ services:
       context: .
       dockerfile: Dockerfile
     restart: always
-    env_file: .env
+    depends_on:
+      - mongo_db
+    environment:
+      - NUXT_PUBLIC_SITE_URL=http://localhost:3000
+      - MONGODB_URI='mongodb://mongo_db:27017/psychonauts-api'
     ports:
       - 3000:3000
+    networks:
+      - psychonauts-network
+
+  mongo_db:
+    container_name: psychonauts-db
+    restart: always
+    image: mongo:latest
+    ports:
+      - 27017
+    networks:
+      - psychonauts-network
+
+  mongo_seed:
+    build: mongo-seed/.
+    links:
+      - mongo_db
+    volumes:
+      - ./mongo-seed:/mongo-seed
+    command: /mongo-seed/import.sh
+    networks:
+      - psychonauts-network
+
+networks:
+  psychonauts-network: {}
